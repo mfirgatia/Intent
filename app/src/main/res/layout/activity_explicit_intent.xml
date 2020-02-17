@@ -54,7 +54,7 @@
         android:layout_margin="10dp"
         android:textAlignment="center"
         android:textSize="20sp"
-        tools:text="Hello name, Congratulations!"
-        />
+        tools:text="Hello name, Congratulations!" />
+
 
 </LinearLayout>

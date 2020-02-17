@@ -11,4 +11,7 @@ public class BundleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bundle);
     }
+    public static final String USERNAME_KEY = "username";
+    public static final String NAME_KEY = "name";
+    public static final String AGE_KEY = "age";
 }
