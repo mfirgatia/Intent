@@ -30,4 +30,9 @@ public class MainActivity extends AppCompatActivity {
         Intent iten = new Intent(this,MainActivity.class);
         finish();
     }
+
+    public void handleBundleIntent(View view) {
+        Intent iten = new Intent(this,BundleActivity.class);
+        startActivity(iten);
+    }
 }

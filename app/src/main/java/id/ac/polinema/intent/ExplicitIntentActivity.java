@@ -17,8 +17,13 @@ public class ExplicitIntentActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_explicit_intent);
-        nameInput = findViewById(R.id.input_name);
-        outputText = findViewById(R.id.text_output);
+
     }
 
+
+    public void onCliktext(View view) {
+        nameInput = findViewById(R.id.input_name);
+        outputText = findViewById(R.id.text_output);
+        outputText.setText(nameInput.getText());
+    }
 }
